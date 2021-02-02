@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                 showAlert(tipoError)
             }
         } else{
-            tipoError = "LLene todos los campos"
+            tipoError = "Porfavor, llene todos los campos"
             showAlert(tipoError)
         }
 
