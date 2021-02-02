@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
                 valor = precios()
                 showMensaje(valor)
             } else {
-                tipoError = "Su producto no edsta en la lista"
+                tipoError = "Su producto no esta en la lista"
                 showAlert(tipoError)
             }
         } else{
